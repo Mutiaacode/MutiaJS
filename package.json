@@ -1,0 +1,20 @@
+{
+  "name": "mutiajs",
+  "version": "1.0.0",
+  "description": "MutiaJS Framework with built-in Tailwind CSS",
+  "main": "index.js",
+  "bin": {
+    "create-mutia-app": "./createMutiaApp.js"
+  },
+  "scripts": {
+    "start": "node createMutiaApp.js",
+    "build:css": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  },
+  "author": "Mutia Pegi Intanswari",  
+  "license": "MIT"                    
+}
